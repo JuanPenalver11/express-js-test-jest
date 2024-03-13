@@ -1,0 +1,17 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ]
+  ]
+}
+
+
+// Babel se encarga de transpilar codigo, es decir de convertir JS de una version a otra. 
+// es necesario utilizarlo porque nosotros en package.json hemos preseleccionado type / module 
+// en lugar de type // commonjs lo que hace que necesitemos Babel ya que nuestro JS es otra version

@@ -1,0 +1,7 @@
+{
+    "typeAcquisition": {
+        "include": ["jest"]
+    }
+}
+
+// despues de crear este objeto asegurate de instalar npm i -D @types/jest y voila.
